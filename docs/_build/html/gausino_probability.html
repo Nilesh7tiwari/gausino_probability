@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gausino_probability package &mdash; gausino_probability 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> gausino_probability
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">gausino_probability package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-gausino_probability.Binomialdistribution">gausino_probability.Binomialdistribution module</a></li>
+<li><a class="reference internal" href="#module-gausino_probability.Gaussiandistribution">gausino_probability.Gaussiandistribution module</a></li>
+<li><a class="reference internal" href="#module-gausino_probability.Generaldistribution">gausino_probability.Generaldistribution module</a></li>
+<li><a class="reference internal" href="#module-gausino_probability">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">gausino_probability</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>gausino_probability package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/gausino_probability.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gausino-probability-package">
+<h1>gausino_probability package<a class="headerlink" href="#gausino-probability-package" title="Permalink to this headline"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
+</section>
+<section id="module-gausino_probability.Binomialdistribution">
+<span id="gausino-probability-binomialdistribution-module"></span><h2>gausino_probability.Binomialdistribution module<a class="headerlink" href="#module-gausino_probability.Binomialdistribution" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">gausino_probability.Binomialdistribution.</span></span><span class="sig-name descname"><span class="pre">Binomial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prob</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="index.html#gausino_probability.Generaldistribution.Distribution" title="gausino_probability.Generaldistribution.Distribution"><code class="xref py py-class docutils literal notranslate"><span class="pre">gausino_probability.Generaldistribution.Distribution</span></code></a></p>
+<p>Binomial distribution class for calculating and
+visualizing a Binomial distribution.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.mean">
+<span class="sig-name descname"><span class="pre">mean</span></span><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.mean" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.stdev">
+<span class="sig-name descname"><span class="pre">stdev</span></span><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.stdev" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.data_list">
+<span class="sig-name descname"><span class="pre">data_list</span></span><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.data_list" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list of floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.p">
+<span class="sig-name descname"><span class="pre">p</span></span><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.p" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.n">
+<span class="sig-name descname"><span class="pre">n</span></span><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.n" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.calculate_mean">
+<span class="sig-name descname"><span class="pre">calculate_mean</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial.calculate_mean"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.calculate_mean" title="Permalink to this definition"></a></dt>
+<dd><p>Function to calculate the mean from p and n</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>mean of the data set</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.calculate_stdev">
+<span class="sig-name descname"><span class="pre">calculate_stdev</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial.calculate_stdev"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.calculate_stdev" title="Permalink to this definition"></a></dt>
+<dd><p>Function to calculate the standard deviation from p and n.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>standard deviation of the data set</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.pdf">
+<span class="sig-name descname"><span class="pre">pdf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">k</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial.pdf"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.pdf" title="Permalink to this definition"></a></dt>
+<dd><p>Probability density function calculator for the gaussian distribution.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>x</strong> (<em>float</em>) – point for calculating the probability density function</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>probability density function output</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.plot_bar">
+<span class="sig-name descname"><span class="pre">plot_bar</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial.plot_bar"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.plot_bar" title="Permalink to this definition"></a></dt>
+<dd><p>Function to output a histogram of the instance variable data using
+matplotlib pyplot library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.plot_bar_pdf">
+<span class="sig-name descname"><span class="pre">plot_bar_pdf</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial.plot_bar_pdf"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.plot_bar_pdf" title="Permalink to this definition"></a></dt>
+<dd><p>Function to plot the pdf of the binomial distribution</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>x values for the pdf plot
+list: y values for the pdf plot</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Binomialdistribution.Binomial.replace_stats_with_data">
+<span class="sig-name descname"><span class="pre">replace_stats_with_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Binomialdistribution.html#Binomial.replace_stats_with_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Binomialdistribution.Binomial.replace_stats_with_data" title="Permalink to this definition"></a></dt>
+<dd><p>Function to calculate p and n from the data set</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the p value
+float: the n value</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-gausino_probability.Gaussiandistribution">
+<span id="gausino-probability-gaussiandistribution-module"></span><h2>gausino_probability.Gaussiandistribution module<a class="headerlink" href="#module-gausino_probability.Gaussiandistribution" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">gausino_probability.Gaussiandistribution.</span></span><span class="sig-name descname"><span class="pre">Gaussian</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mu</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigma</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Gaussiandistribution.html#Gaussian"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="index.html#gausino_probability.Generaldistribution.Distribution" title="gausino_probability.Generaldistribution.Distribution"><code class="xref py py-class docutils literal notranslate"><span class="pre">gausino_probability.Generaldistribution.Distribution</span></code></a></p>
+<p>Gaussian distribution class for calculating and
+visualizing a Gaussian distribution.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.mean">
+<span class="sig-name descname"><span class="pre">mean</span></span><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.mean" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.stdev">
+<span class="sig-name descname"><span class="pre">stdev</span></span><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.stdev" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.data_list">
+<span class="sig-name descname"><span class="pre">data_list</span></span><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.data_list" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list of floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.calculate_mean">
+<span class="sig-name descname"><span class="pre">calculate_mean</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Gaussiandistribution.html#Gaussian.calculate_mean"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.calculate_mean" title="Permalink to this definition"></a></dt>
+<dd><p>Function to calculate the mean of the data set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>mean of the data set</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.calculate_stdev">
+<span class="sig-name descname"><span class="pre">calculate_stdev</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sample</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Gaussiandistribution.html#Gaussian.calculate_stdev"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.calculate_stdev" title="Permalink to this definition"></a></dt>
+<dd><p>Function to calculate the standard deviation of the data set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>sample</strong> (<em>bool</em>) – whether the data represents a sample or population</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>standard deviation of the data set</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.pdf">
+<span class="sig-name descname"><span class="pre">pdf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Gaussiandistribution.html#Gaussian.pdf"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.pdf" title="Permalink to this definition"></a></dt>
+<dd><p>Probability density function calculator for the gaussian distribution.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>x</strong> (<em>float</em>) – point for calculating the probability density function</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>probability density function output</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.plot_histogram">
+<span class="sig-name descname"><span class="pre">plot_histogram</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Gaussiandistribution.html#Gaussian.plot_histogram"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.plot_histogram" title="Permalink to this definition"></a></dt>
+<dd><p>Function to output a histogram of the instance variable data using
+matplotlib pyplot library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Gaussiandistribution.Gaussian.plot_histogram_pdf">
+<span class="sig-name descname"><span class="pre">plot_histogram_pdf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n_spaces</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">50</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Gaussiandistribution.html#Gaussian.plot_histogram_pdf"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Gaussiandistribution.Gaussian.plot_histogram_pdf" title="Permalink to this definition"></a></dt>
+<dd><p>Function to plot the normalized histogram of the data and a plot of the
+probability density function along the same range</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n_spaces</strong> (<em>int</em>) – number of data points</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>x values for the pdf plot
+list: y values for the pdf plot</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-gausino_probability.Generaldistribution">
+<span id="gausino-probability-generaldistribution-module"></span><h2>gausino_probability.Generaldistribution module<a class="headerlink" href="#module-gausino_probability.Generaldistribution" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="gausino_probability.Generaldistribution.Distribution">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">gausino_probability.Generaldistribution.</span></span><span class="sig-name descname"><span class="pre">Distribution</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mu</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigma</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Generaldistribution.html#Distribution"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Generaldistribution.Distribution" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="gausino_probability.Generaldistribution.Distribution.read_data_file">
+<span class="sig-name descname"><span class="pre">read_data_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gausino_probability/Generaldistribution.html#Distribution.read_data_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gausino_probability.Generaldistribution.Distribution.read_data_file" title="Permalink to this definition"></a></dt>
+<dd><p>Function to read in data from a txt file. The txt file should have
+one number (float) per line. The numbers are stored in the data attribute.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>file_name</strong> (<em>string</em>) – name of a file to read from</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-gausino_probability">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-gausino_probability" title="Permalink to this headline"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Nilesh Tiwari.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
